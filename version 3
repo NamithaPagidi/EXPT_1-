@@ -1,0 +1,13 @@
+with open("input_single.txt", "r") as file:
+    data = file.readlines()
+
+a = int(data[0])
+b = int(data[1])
+c = int(data[2])
+x = 1
+y = a * x**2 + b * x + c
+
+if(y):
+    print(f"The model's prediction if it 'Rains' tomorrow is {y}%")
+else:
+    print("Some error has occurred, contact developer")

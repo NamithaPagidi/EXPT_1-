@@ -1,0 +1,6 @@
+a =3
+b =4
+c =5
+x =6
+y = a*x**2+b*x+c
+print(f"The predicted value is {y} units")
